@@ -1,6 +1,6 @@
 {
   "name": "brdata",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Gerador de dados contextualizados com a realidade brasileira.",
   "engines": {
     "sketch": ">=3.0"
