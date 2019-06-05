@@ -1,6 +1,6 @@
 {
   "name": "brdata",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Gerador de dados contextualizados com a realidade brasileira.",
   "engines": {
     "sketch": ">=3.0"
@@ -13,7 +13,7 @@
     "name": "BRData",
     "manifest": "src/manifest.json",
     "identifier": "brdata.plugin",
-    "appcast": "https://api.sketchpacks.com/v1/plugins/brdata.plugin/appcast",
+    "appcast": ".appcast.xml",
     "main": "brdata.sketchplugin",
     "assets": [
       "assets/**/*"
