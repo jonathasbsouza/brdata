@@ -1,6 +1,6 @@
-# BRData 🇧🇷
+# Sketch BRData 🇧🇷
 
-Este plugin permite que a Designer possa rapidamente preencher campos de texto com dados contextualizados com a realidade brasileira.
+Este plugin permite que, ao usar o Sketch, a designer possa rapidamente preencher campos de texto com dados contextualizados com a realidade brasileira.
 
 ## Porque este Plugin? 🤔
 
