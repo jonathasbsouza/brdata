@@ -1,93 +1,33 @@
-# datademo
+# BRData 🇧🇷
 
-_This plugin was created using `skpm`. For a detailed explanation on how things work, checkout the [skpm Readme](https://github.com/skpm/skpm/blob/master/README.md)._
+Este plugin permite que a Designer possa rapidamente preencher campos de texto com dados contextualizados com a realidade brasileira.
 
-## Usage
+## Porque este Plugin? 🤔
 
-Install the dependencies
+During designing we often found ourselves ending up with fifty different shades of grey. (and of course other colours) Sometimes we would just lose ourselves in designing and don't keep track of all the colours that we used. But this is not ideal when you have to hand it over to the development team.
 
-```bash
-npm install
-```
+## Instalando ⚙️
 
-Once the installation is done, you can run some commands inside the project folder:
+1. Download the latest [Colormate release](https://api.sketchpacks.com/v1/plugins/com.colormate.plugin/download)
+2. Unzip the file
+3. Clique duas vezes em `brdata.sketchplugin` para instalar.
 
-```bash
-npm run build
-```
+## Usando 💪
 
-To watch for changes:
+- Selecione um campo de texto
+- Clique com o botão direito
+- Selecione a opção Data > BRData > _sua escolha_
+- Tudo certo!
 
-```bash
-npm run watch
-```
+## Em Breve 🚀
 
-Additionally, if you wish to run the plugin every time it is built:
+A ideia é a partir das necessidades diárias, oferecer novos dados, como:
 
-```bash
-npm run start
-```
+- Nomes de Bairros
+- CPFs
+- CNH, RGs e outros documentos
+- Cartões de Crédito
 
-## Custom Configuration
+Se você tiver alguma sugestão, é só entrar em contato!
 
-### Babel
-
-To customize Babel, you have two options:
-
-* You may create a [`.babelrc`](https://babeljs.io/docs/usage/babelrc) file in your project's root directory. Any settings you define here will overwrite matching config-keys within skpm preset. For example, if you pass a "presets" object, it will replace & reset all Babel presets that skpm defaults to.
-
-* If you'd like to modify or add to the existing Babel config, you must use a `webpack.skpm.config.js` file. Visit the [Webpack](#webpack) section for more info.
-
-### Webpack
-
-To customize webpack create `webpack.skpm.config.js` file which exports function that will change webpack's config.
-
-```js
-/**
- * Function that mutates original webpack config.
- * Supports asynchronous changes when promise is returned.
- *
- * @param {object} config - original webpack config.
- * @param {boolean} isPluginCommand - whether the config is for a plugin command or a resource
- **/
-module.exports = function(config, isPluginCommand) {
-  /** you can change config here **/
-}
-```
-
-## Debugging
-
-To view the output of your `console.log`, you have a few different options:
-
-* Use the [`sketch-dev-tools`](https://github.com/skpm/sketch-dev-tools)
-* Open `Console.app` and look for the sketch logs
-* Look at the `~/Library/Logs/com.bohemiancoding.sketch3/Plugin Output.log` file
-
-Skpm provides a convenient way to do the latter:
-
-```bash
-skpm log
-```
-
-The `-f` option causes `skpm log` to not stop when the end of logs is reached, but rather to wait for additional data to be appended to the input
-
-## Publishing your plugin
-
-```bash
-skpm publish <bump>
-```
-
-(where `bump` can be `patch`, `minor` or `major`)
-
-`skpm publish` will create a new release on your GitHub repository and create an appcast file in order for Sketch users to be notified of the update.
-
-You will need to specify a `repository` in the `package.json`:
-
-```diff
-...
-+ "repository" : {
-+   "type": "git",
-+   "url": "git+https://github.com/ORG/NAME.git"
-+  }
-...
-```
+Made with ❤️ by [Jônathas Souza](https://jonathas.work)
