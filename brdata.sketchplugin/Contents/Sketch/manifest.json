@@ -22,12 +22,12 @@
   "menu": {
     "title": "BRData"
   },
-  "version": "0.1.0",
+  "version": "0.0.5",
   "description": "Gerador de dados contextualizados com a realidade brasileira.",
   "name": "BRData",
   "identifier": "BRData",
   "disableCocoaScriptPreprocessor": true,
-  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml",
+  "appcast": "https://raw.githubusercontent.com/jonathasbsouza/brdata/master/.appcast.xml",
   "author": "Jônathas Souza",
   "authorEmail": "jonathasbsouza@gmail.com"
 }

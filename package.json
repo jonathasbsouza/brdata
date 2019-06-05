@@ -12,6 +12,8 @@
   "skpm": {
     "name": "BRData",
     "manifest": "src/manifest.json",
+    "identifier": "brdata.plugin",
+    "appcast": "https://api.sketchpacks.com/v1/plugins/brdata.plugin/appcast",
     "main": "brdata.sketchplugin",
     "assets": [
       "assets/**/*"
